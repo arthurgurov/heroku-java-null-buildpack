@@ -25,7 +25,7 @@ Push the app to Heroku and run our executable:
 
 ```bash
 $ git init; git add .; git commit -am 'init'
-$ heroku create --buildpack http://github.com/ryandotsmith/null-buildpack.git
+$ heroku create --buildpack http://github.com/arthurgurov/heroku-java-null-buildpack.git
 $ git push heroku master
 $ heroku run program
 Running `program` attached to terminal... up, run.8663
